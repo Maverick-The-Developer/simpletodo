@@ -6,7 +6,7 @@ import React from 'react'
 export default async function TodoApp() {
   const todoList = await getAllTodos()
   return (
-    <div className='mx-auto mt-8'>
+    <div className='mx-auto mt-8 max-w-[800px]'>
       <h1 className='text-center text-3xl mb-4'>Todo App</h1>
       <hr />
       <TodoInput />
